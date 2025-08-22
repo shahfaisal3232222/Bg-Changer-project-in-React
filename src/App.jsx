@@ -15,7 +15,7 @@ function App() {
           <button className='bg-yellow-500  text-black p-3.5 rounded-2xl border-2' onClick={() => setCount("yellow")}>yellow</button>
           <button className='bg-orange-500  text-black p-3.5 rounded-2xl border-2' onClick={() => setCount("orange")}>olive</button>
           <button className='bg-green-500  text-black p-3.5 rounded-2xl border-2' onClick={() =>setCount("green")}>Green</button>
-          <button className='bg-violet-500  text-black p-3.5 rounded-2xl border-2' onClick={() => setCount("violet")}>Voilet</button>
+          <button className='bg-violet-600 text-black p-3.5 rounded-2xl border-2' onClick={() => setCount("violet")}>Voilet</button>
           <button className='bg-white  text-black p-3.5 rounded-2xl border-2' onClick={()=>setCount("white")}>white</button>
           <button className='bg-black  text-white p-3.5 rounded-2xl border-amber-50' onClick={()=>setCount("black")}>Black</button>
         
